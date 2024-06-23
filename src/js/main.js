@@ -3,7 +3,7 @@
 const currentDate = new Date();
 
 const day = currentDate.getDate();
-const month = currentDate.getMonth() + 1; // Додаємо 1, оскільки місяці в JavaScript починаються з 0
+const month = currentDate.getMonth() + 1; 
 const year = currentDate.getFullYear();
 const formattedDate = `${day}-${month}-${year}`;
 const publicationDateElement = document.getElementById('publication_date');
@@ -97,7 +97,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div class="comment-text-content">
                     <p class="comment-text"><b style="font-size: 18px; color: dodgerblue;">${commentAuthor}</b></p>
                     <p class="comment-text">${commentMessage}</p>
-                    <!-- Додайте інші елементи або зображення за необхідності -->
                     <div class="icons">
                         <ul class="icons-list">
                             <li class="icons-list-item">

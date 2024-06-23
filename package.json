@@ -15,7 +15,7 @@
   "author": "Roman Sholohin ",
   "license": "ISC",
   "dependencies": {
-    "@splidejs/splide": "^4.1.4",
+    
     "vite-plugin-full-reload": "^1.1.0",
     "vite-plugin-html-inject": "^1.1.2"
   }
