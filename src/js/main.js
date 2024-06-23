@@ -1,7 +1,4 @@
-import '@splidejs/splide/css';
-import '@splidejs/splide/css/skyblue';
 import '@splidejs/splide/css/sea-green';
-import '@splidejs/splide/css/core';
 import Splide from '@splidejs/splide';
 
 new Splide('.splide').mount();
