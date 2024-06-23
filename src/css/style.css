@@ -218,7 +218,9 @@
   border-radius: 50%;
 }
 
-
+.splide__slide{
+  margin-bottom: 20px;
+}
 
 .commentForm-btn{
   width: 100px;
