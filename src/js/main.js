@@ -1,7 +1,5 @@
 
 
-new Splide('.splide').mount();
-
 const currentDate = new Date();
 
 const day = currentDate.getDate();
