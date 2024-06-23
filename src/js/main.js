@@ -1,4 +1,4 @@
-import '@splidejs/splide/css/sea-green';
+import '@splidejs/splide/dist/css/themes/splide-sea-green.min.css';
 import Splide from '@splidejs/splide';
 
 new Splide('.splide').mount();
@@ -6,7 +6,7 @@ new Splide('.splide').mount();
 const currentDate = new Date();
 
 const day = currentDate.getDate();
-const month = currentDate.getMonth() + 1; // Додаємо 1, оскільки місяці в JavaScript починаються з 0
+const month = currentDate.getMonth() + 1; 
 const year = currentDate.getFullYear();
 
 const formattedDate = `${day}-${month}-${year}`;
