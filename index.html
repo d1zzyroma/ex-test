@@ -1,13 +1,558 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amulet Dark Dragon</title>
+  <link rel="stylesheet" href="./src/css/style.css">
+  <link rel="stylesheet" href="./src/css/reset.css">
+</head>
+<body>
+  <header class="header">
+    <ul class="header-list">
+      <li class="header-list-item"><a href="#">ค้นหา</a></li>
+      <li class="header-list-item"><a href="#">ติดตาม</a></li>
+      <li class="header-list-item"><a href="#">ข่าว</a></li>
+      <li class="header-list-item"><a href="#">การโฆษณา</a></li>
+      <li class="header-list-item"><a href="#">ธุรกิจ</a></li>
+      <li class="header-list-item"><a href="#">ช่วย</a></li>
+      <li class="header-list-item last-item"><a href="#">เกี่ยวกับเรา</a></li>
+    </ul>
+    <div class="logo-wrapper">
+      <a href="#"><img src="./src/img/logo.png" alt=""></a>
+    </div>
+  </header>
+  <main>
+    <section class="content">
+      <div class="container">
+        <div class="wrapper">
+          <h1 class="title-1">
+            ไวรัลดังทั่วไทย! เครื่องรางนำโชคดึงดูดโชคลาภและเงินทอง: ความจริงหรืออิงนิยาย? รายงานพิเศษของเราที่จะมาเปิดเผยความจริงทั้งหมด!
+          </h1>
+          <div id="publication_date" style="font-size: 21px;"></div>
+          <img src="./src/img/hero-img.png" alt="" width="800" height="600" class="content-img">
+          <p class="hero-content"><b>การสอบสวนที่สร้างความตกใจให้กับประเทศไทย!</b> </p>
+          <img src="./src/img/hero-img-2.png" width="800" alt="" class="content-img">
+          <p class="text-content" id="text-content">  - เมื่อไม่กี่เดือนที่ผ่านมา ประเทศไทยนั้นได้สั่นสะเทือนไปด้วยเรื่องราวลึกลับเกี่ยวกับโชคลาภและความมั่งคั่งที่มาจากเครื่องรางปริศนา Dark Dragon amulet.
+            เครื่องรางชิ้นนี้ซึ่งว่ากันว่าจะนำความมั่งคั่งและโชคลาภมาสู่ผู้เป็นเจ้าของ ได้กลายเป็นประเด็นที่ได้รับความสนใจและถกเถียงกันอย่างมาก ระหว่างคนท้องถิ่น และสำนักข่าวทั่วโลก 
+            <b>เส้นทางสู่ความมั่งคั่ง: ความจริงหรืออิงนิยาย?</b></p>
+          <p class="text-content" id="text-content">
+            เรื่องราวเกี่ยวกับเครื่องราง Dark Dragon amulet ได้ถูกตั้งคำถามอย่างมากมาย : <b>เครื่องรางนี้สามารถเปลี่ยนชะตากรรมของเจ้าของได้จริง หรือเป็นเพียงตำนานที่สร้างขึ้นเพื่อดึงดูดความสนใจของผู้คน?</b> ผู้สื่อข่าวของเราตัดสินใจที่จะดำเนินการสอบสวนนี้และขจัดข้อสงสัยทั้งหมด  
+          </p>
+          <img src="./src/img/content-1.png" alt="" width="800" height="600" class="content-img">
+          <p class="hero-content"><b>คำบอกเล่าจากปากพยานผู้เปี่ยมสุข </b></p>
+          <p class="text-content " id="text-content" style="text-align: left;">
+            เราได้ติดต่อผู้โชคดีบางส่วนที่อ้างว่าเครื่องราง Dark Dragon ได้เปลี่ยนชีวิตพวกเขาอย่างแท้จริง
+             
+          </p>
+          <p class="text-content " id="text-content" >
+            หนึ่งในนั้นคือ พงษ์สุข นักธุรกิจหนุ่มจากกรุงเทพฯ เล่าให้เราฟังว่าพระเครื่องนี้เปลี่ยนสถานะทางการเงินของเขาอย่างไร 
+          </p>
+          <img src="./src/img/content-2.png" alt=""  width="800" height="600" class="content-img">
+          <p class="text-content " id="text-content" >
+            <b>"ตั้งแต่ผมได้รับเครื่องราง Dark Dragon ธุรกิจของผมก็เจริญรุ่งเรืองและรายได้ของผมก็เพิ่มขึ้นทุกเดือน ผมไม่สามารถนับเงินของผมได้อีกต่อไป - มันคือความมั่งคั่งอย่างแท้จริง!"</b>
+          </p>
+
+          <p class="hero-content"><b>ตรวจสอบความจริง</b> </p>
+          <p class="text-content " id="text-content" >
+            เรามาดูคำถามที่สำคัญที่สุดกันดีกว่า: เรื่องราวเหล่านี้ จริงเท็จแค่ไหน? เราทำการตรวจสอบโดยละเอียดเพื่อดูว่าเครื่องราง Dark Dragon สามารถเปลี่ยนแปลงสถานการณ์ทางการเงินของเจ้าของได้จริงหรือไม่
+          </p>
+          <p class="hero-content"><b>ความเห็นจากผู้เชี่ยวชาญ</b></p>
+          <p class="text-content " id="text-content" >
+            ผู้เชี่ยวชาญด้านพระเครื่องและวัตถุวิเศษ ศาสตราจารย์ ชาตรา ชาตรี เข้ามาช่วยเหลือเราในวันนี้ 
+          </p>
+          <img src="./src/img/content-3.png" alt="" width="800" height="600" class="content-img">
+          <p class="text-content " id="text-content" >
+            เขาได้อธิบายว่า: "เครื่องรางมีประวัติศาสตร์อันยาวนานในวัฒนธรรมไทย อย่างไรก็ตาม การพิสูจน์คุณสมบัติของเวทย์มนตร์ทางวิทยาศาสตร์นั้นเป็นงานที่ยากมาก ความสำเร็จของ Dark Dragon สามารถนำมาประกอบกับปัจจัยทางจิตวิทยา - ศรัทธาในโชคของแต่ละบุคคลและความสามารถในการตัดสินใจอย่างมั่นใจ เมื่อศึกษาคุณสมบัติของเครื่องรางอย่างละเอียดแล้ว ผมจึงสรุปได้อย่างมั่นใจว่า เครื่องรางนี้เป็นที่รู้จักมาตั้งแต่เมื่อ 3,000 ปีก่อน เครื่องรางนี้ถูกใช้โดยผู้มีชื่อเสียงผู้มีอำนาจ (ไม่เอ่ยนาม) เครื่องรางนี้ได้ถูกเขียนบันทึกไว้ในม้วนหนังสือโบราณ - ว่าเป็นเสมือนหินจากอวกาศ (ท้องฟ้า) หรือหินพระพุทธรูป วัสดุของเครื่องรางชิ้นนี้มีเอกลักษณ์เฉพาะอย่างแท้จริง - มันถูกแช่ในน้ำศักดิ์สิทธิ์ซึ่งจะทำให้เจ้าของมีรัศมีอันน่าทึ่ง" 
+          </p>
+          <p class="hero-content"><b>ตอนนี้เจ้าของเครื่องราง Dark Dragon ใช้ชีวิตอย่างไร?</b> </p>
+          <p class="text-content " id="text-content" >
+            การศึกษายังเผยให้เห็นข้อเท็จจริงที่น่าสนใจเกี่ยวกับวิถีชีวิตของเจ้าของ <span style="color: red;">Dark Dragon</span> ในปัจจุบัน พวกเขาหลายคนกลายเป็นผู้ใจบุญ โดยลงทุนความมั่งคั่งในโครงการการกุศล และเครื่องรางนี้ดูเหมือนจะไม่เพียงแต่เปลี่ยนสถานการณ์ทางการเงินของพวกเขาเท่านั้น แต่ยังรวมถึงลักษณะนิสัยของพวกเขาด้วย 
+          </p>
+        </div>
+          <div class="splide">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <p class="text-content " id="text-content" >
+                    <b>ปัทมะ</b> 
+                  </p>
+                  <img src="./src/img/content-4.png" alt="" width="800" height="600" class="content-img splide-img">
+                  <p class="text-content " id="text-content" >
+                    ปัทมะ อดีตปรมาจารย์การนวดจากจังหวัดเชียงใหม่ กลายเป็นดาวเด่นในหมู่เจ้าของเครื่องราง Dark Dragon หลังจากที่เขาได้เครื่องราง ร้านนวดของเขาก็กลายเป็นโอเอซิสแห่งการพักผ่อนอย่างแท้จริง ปัจจุบันคุณปัทมะมีบริการนวดสุดพิเศษแก่คนดังและนักท่องเที่ยวจำนวนมาก ชีวิตของเขาเปลี่ยนไปอย่างแท้จริง และตอนนี้เขาก็อยากช่วยให้คนอื่นๆได้เพลิดเพลินไปกับความมั่งคั่งของชีวิต เสกเช่นเดียวกับตัวเขา
+                  </p>
+                </li>
+                <li class="splide__slide">
+                  <p class="text-content " id="text-content" >
+                    <b>กิตติธัช</b> 
+                  </p>
+                  <img src="./src/img/content-5.png" alt="" width="800" height="600" class="content-img splide-img">
+                  <p class="text-content " id="text-content" >
+                    กิตติธัช อดีตโปรโมเตอร์จากพัทยากลายเป็นที่รู้จักในนาม “ราชาแห่งรัตติกาล” หลังจากที่ เครื่องราง Dark Dragon นำโชคมาให้ ด้วยความช่วยเหลือของเขา เขาได้เปิดไนต์คลับที่ประสบความสำเร็จหลายแห่งและกลายเป็นกูรูในโลกแห่งความบันเทิง ตอนนี้เขาเดินทางไปทั่วโลก เข้าร่วมงานปาร์ตี้ที่ดีที่สุด และแบ่งปันเรื่องราวความสำเร็จของเขากับผู้ประกอบการรุ่นใหม่
+                  </p>
+                </li>
+                <li class="splide__slide">
+                  <p class="text-content " id="text-content" >
+                    <b>เอมิ</b> 
+                  </p>
+                  <img src="./src/img/content-6.png" alt="" width="800" height="600" class="content-img splide-img">
+                  <p class="text-content " id="text-content" >
+                    เอมิ อดีตพนักงานขายของฟาร์มในเชียงใหม่ กลายเป็นที่รู้จักในนาม "นางฟ้าแห่งการกุศล" เธอใช้ทรัพย์สมบัติที่ Dark Dragon มอบให้เธอมาสร้างรากฐานเพื่อช่วยเหลือเด็กและสัตว์ต่างๆ โครงการการกุศลของเธอกระจายไปทั่วประเทศ และ เอมิเชื่อว่านี่คือวิธีของเธอในการตอบแทนสังคมสำหรับทุกสิ่งที่มอบให้กับเธอ
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        <div class="wrapper">
+          <p class="text-content " id="text-content" >
+            เรื่องราวเหล่านี้เป็นเพียงตัวอย่างสมมุติว่าเครื่องราง Dark Dragon อาจส่งผลต่อชีวิตของเจ้าของได้อย่างไร หากเครื่องรางนำโชคลาภและความมั่งคั่งมาให้จริง ๆ บางทีมันอาจจะสร้างแรงบันดาลใจให้ผู้คนประสบความสำเร็จอันยิ่งใหญ่ และช่วยพวกเขาทำให้โลกนี้น่าอยู่ขึ้น แต่สำหรับตอนนี้มันยังคงเป็นปริศนา และเจ้าของเครื่องรางแต่ละคนก็มีเรื่องราวความสำเร็จที่เป็นเอกลักษณ์ของตัวเอง
+          </p>
+          <p class="text-content " id="text-content" >
+            คำถามที่ยังไม่มีคำตอบคือธรรมชาติที่แท้จริงของ Dark Dragon ซึ่งอาจเป็นสัญลักษณ์ของความโชคดี แรงจูงใจในการบรรลุเป้าหมาย หรือแม้แต่เพียงความเชื่อโชคลาง แต่มีสิ่งหนึ่งที่แน่นอนนั่นก็คือ สิ่งลึกลับนี้ยังคงดึงดูดความสนใจของประเทศไทยและทั่วโลกตลอดจนทำให้เจ้าของร่ำรวยขึ้น
+          </p>
+          <p class="text-content " id="text-content" >
+            Dark Dragon ไม่ใช่แค่เครื่องราง แต่เป็นออร่าแห่งความโชคดี พระเครื่องราง The Dark Dragon Amulet ยังคงเป็นหนึ่งในปรากฏการณ์ทางประวัติศาสตร์ที่น่าทึ่งที่สุดของประเทศไทยที่ยังคงกระตุ้นจิตใจของเราอย่างต่อเนื่อง
+          </p>
+          <p class="text-content " id="text-content" >
+            <b>ข้อเสนอพิเศษจากผู้ผลิตเครื่องราง!</b> เราจะคืนเงินให้คุณ 100%หาดเครื่องรางนี้ไม่ช่วยให้ชีวิตคุณดีขึ้น และด้วยเหตุผลอะไรก็แล้วแต่ที่ทำให้คุณไม่พอใจในเรื่องราว และเรายังมอบส่วนลด <span style="color: red;">50% ให้แก่ผู้ที่สั่งซื้อเครื่องราง จากปกติราคา 1980 เหลือเพียง 990 บาทเท่านั้น</span> 
+          </p>
+          <form action="<?php echo getRoutelink(); ?>" method="post" class="form" id="buy-form">
+            
+            <img src="./src/img/content-7.png" alt="" class="form-img" width="300">
+            <div class="form-content">
+                <p class="form-content-one">หากต้องการรับ Amulet Dragon พร้อมส่วนลด 50% ให้กรอกชื่อ และหมายเลขติดต่อของคุณในช่องว่างด้านล่าง และคลิกปุ่ม "สั่งซื้อ"</p>
+                <p class="form-content-two"><s>1980 ฿</s> <span style="color: red;">990 ฿</span></p>
+                <div class="input-btn-wrapper">
+                    
+                    <input type="text" class="form-input" placeholder="ชื่อ:" name="name" required minlength="2">
+                    
+                    <input type="tel" class="form-input" placeholder="เบอร์โทรศัพท์:" name="phone" required minlength="9" maxlength="14">
+                    
+                    <button class="form-btn" type="submit">สั่งซื้อ</button>
+                    
+                    <input type="hidden" name="click_id" value="<?php echo isset($_SESSION['binom_click_id']) ? $_SESSION['binom_click_id'] : ''; ?>">
+                </div>
+            </div>
+        </form>
+        </div> 
+      </div>
+    </section>  
+    <section class="comments">
+      <div class="container">
+        <div class="comment-wrapper">
+          <h2 class="title-2">ความคิดเห็น: </h2>
+          <form id="commentForm" class="commentForm">
+              <img src="./src/img/default-avatar.jpg" alt="" class="comment-img">
+              <div class="form-actions">
+                  <input type="text" id="commentAuthor" placeholder="ชื่อ" class="commentForm-text">
+                  <textarea id="commentText" placeholder="ทิ้งข้อความไว้" class="commentForm-text"></textarea>
+                  <button type="submit" class="commentForm-btn">ส่ง</button>
+              </div>
+          </form>
+          <ul id="commentList">
+            <li class="commentList-item">
+              <img src="./src/img/comment-1.png" alt="" class="commentList-item-img">
+              <div class="comment-text-content">
+                <p class="comment-text"><b style="font-size: 18px; color: dodgerblue;">นันทภัทร</b></p>
+                <p class="comment-text">เครื่องรางชิ้นนี้สวยมากครับ เพิ่งได้รับพัสดุมาเองครับ ยังไม่ทันใดผมก็โชคดีตั้งแต่หัววันเลยครับ ผมถูกหวยครับ ครั้งแรกของผมเลย </p>
+                <img src="./src/img/comment-1-1.png" alt="" width="300" class="comment-mobile-tablet">
+                <div class="icons">
+                  <ul class="icons-list">
+                    <li class="icons-list-item">
+                      <button class="icons-btn like-btn" data-likes="15">
+                        <svg width="16" height="16">
+                          <use xlink:href="./src/img/symbol-defs.svg#icon-like"></use>
+                        </svg>
+                        <span class="like-count">15</span> ชอบ 
+                      </button>
+                    </li>
+                    <li class="icons-list-item">
+                      <button class="icons-btn dislike-btn" data-dislikes="2">
+                        <svg width="16" height="16">
+                          <use xlink:href="./src/img/symbol-defs.svg#icon-dislike"></use>
+                        </svg>
+                        <span class="dislike-count">2</span> ไม่ชอบ 
+                      </button>
+                    </li>
+                    <li class="icons-list-item">
+                      <a href="#commentForm" class="icons-btn">
+                        <svg width="16" height="16">
+                          <use xlink:href="./src/img/symbol-defs.svg#icon-comment"></use>
+                        </svg>
+                        ฟอร์ม
+                      </a>
+                    </li>
+                    <li class="icons-list-item">
+                      <div class="publication-date" ></div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="commentList-item">
+              <img src="./src/img/comment-2.png" alt="" class="commentList-item-img">
+              <div class="comment-text-content">
+                <p class="comment-text"><b style="font-size: 18px; color: dodgerblue;">พรทิพย์</b></p>
+                <p class="comment-text">เครื่องรางชิ้นนี้สวยมากๆค่ะ ดิฉันเพิ่งได้รับมา รู้สึกถึงพลังงานบวกที่แผ่ไปตามร่างกาย แถมดิฉันยังถูกลอตเตอรี่ด้วยค่ะ นี่เป็นครั้งแรกของดิฉันเลย </p>
+                <img src="./src/img/comment-2-2.png" alt="" width="300">
+                <div class="icons">
+                  <ul class="icons-list">
+                    <li class="icons-list-item">
+                      <button class="icons-btn like-btn" data-likes="11">
+                        <svg width="16" height="16">
+                          <use xlink:href="./src/img/symbol-defs.svg#icon-like"></use>
+                        </svg>
+                        <span class="like-count">11</span> ชอบ 
+                      </button>
+                    </li>
+                    <li class="icons-list-item">
+                      <button class="icons-btn dislike-btn" data-dislikes="9">
+                        <svg width="16" height="16">
+                          <use xlink:href="./src/img/symbol-defs.svg#icon-dislike"></use>
+                        </svg>
+                        <span class="dislike-count">9</span> ไม่ชอบ 
+                      </button>
+                    </li>
+                    <li class="icons-list-item">
+                      <a href="#commentForm" class="icons-btn">
+                        <svg width="16" height="16">
+                          <use xlink:href="./src/img/symbol-defs.svg#icon-comment"></use>
+                        </svg>
+                        ฟอร์ม
+                      </a>
+                    </li>
+                    <li class="icons-list-item">
+                      <div class="publication-date" ></div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="commentList-item">
+              <img src="./src/img/comment-4.png" alt="" class="commentList-item-img">
+              <div class="comment-text-content">
+                <p class="comment-text"><b style="font-size: 18px; color: dodgerblue;">รัฐภูมิ</b></p>
+                <p class="comment-text">ตอนเด็กๆผมเคยไปปฏิบัติธรรมที่ทิเบต ผมจำได้ว่าพวกนักธุรกิจต่างชาติที่นั่นใส่เครื่องรางชิ้นนี้กันแทบทุกคน</p>
+                <div class="icons">
+                  <ul class="icons-list">
+                    <li class="icons-list-item">
+                      <button class="icons-btn like-btn" data-likes="4">
+                        <svg width="16" height="16">
+                          <use xlink:href="./src/img/symbol-defs.svg#icon-like"></use>
+                        </svg>
+                        <span class="like-count">4</span> ชอบ 
+                      </button>
+                    </li>
+                    <li class="icons-list-item">
+                      <button class="icons-btn dislike-btn" data-dislikes="7">
+                        <svg width="16" height="16">
+                          <use xlink:href="./src/img/symbol-defs.svg#icon-dislike"></use>
+                        </svg>
+                        <span class="dislike-count">7</span> ไม่ชอบ 
+                      </button>
+                    </li>
+                    <li class="icons-list-item">
+                      <a href="#commentForm" class="icons-btn">
+                        <svg width="16" height="16">
+                          <use xlink:href="./src/img/symbol-defs.svg#icon-comment"></use>
+                        </svg>
+                        ฟอร์ม
+                      </a>
+                    </li>
+                    <li class="icons-list-item">
+                      <div class="publication-date" ></div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="commentList-item">
+              <img src="./src/img/comment-5.png" alt="" class="commentList-item-img">
+              <div class="comment-text-content">
+                <p class="comment-text"><b style="font-size: 18px; color: dodgerblue;">ดารารัตน์ </b></p>
+                <p class="comment-text">หนูกับสามีหย่ากันเมื่อไม่กี่ปีที่ผ่านมา เรามีลูกด้วยกัน 1 คน หนูได้ลองทำตามคำแนะนำของคุณ หนูตัดสินใจสวมเครื่องรางนี้เอาไว้กับตัวตลอดเวลา หลังจากนั้น 2-3 สัปดาห์ สามีของหนูที่หย่าร้างกันไปก็ก่อตั้งธุรกิจของเขา แถมยังขายของดีกว่าเมื่อก่อนมาก ได้เดือนละหลายแสนบาทเลยค่ะ หลังจากที่ชำระหนี้ที่กู้ร่วมกันกับสามีเรียบร้อย หนูกับสามีก็กลับมาอยู่ด้วยกัน และมีแผนที่จะแต่งงานใหม่ในไม่ช้า </p>
+                <img src="./src/img/comment-5-2.png" alt="" width="300">
+                <div class="icons">
+                  <ul class="icons-list">
+                    <li class="icons-list-item">
+                      <button class="icons-btn like-btn" data-likes="7">
+                        <svg width="16" height="16">
+                          <use xlink:href="./src/img/symbol-defs.svg#icon-like"></use>
+                        </svg>
+                        <span class="like-count">7</span> ชอบ 
+                      </button>
+                    </li>
+                    <li class="icons-list-item">
+                      <button class="icons-btn dislike-btn" data-dislikes="0">
+                        <svg width="16" height="16">
+                          <use xlink:href="./src/img/symbol-defs.svg#icon-dislike"></use>
+                        </svg>
+                        <span class="dislike-count">0</span> ไม่ชอบ 
+                      </button>
+                    </li>
+                    <li class="icons-list-item">
+                      <a href="#commentForm" class="icons-btn">
+                        <svg width="16" height="16">
+                          <use xlink:href="./src/img/symbol-defs.svg#icon-comment"></use>
+                        </svg>
+                        ฟอร์ม
+                      </a>
+                    </li>
+                    <li class="icons-list-item">
+                      <div class="publication-date" ></div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="commentList-item">
+              <img src="./src/img/comment-6.png" alt="" class="commentList-item-img">
+              <div class="comment-text-content">
+                <p class="comment-text"><b style="font-size: 18px; color: dodgerblue;">ตั๊กแตน </b></p>
+                <p class="comment-text">เครื่องรางนี้สุดยอดไปเลยค่ะ รู้สึกถึงพลังบวก ใครที่ตั้งใจเปลี่ยนชีวิตตัวเองจะพบแต่ความเจริญรุ่งเรือง</p>
+                <div class="icons">
+                  <ul class="icons-list">
+                    <li class="icons-list-item">
+                      <button class="icons-btn like-btn" data-likes="11">
+                        <svg width="16" height="16">
+                          <use xlink:href="./src/img/symbol-defs.svg#icon-like"></use>
+                        </svg>
+                        <span class="like-count">11</span> ชอบ 
+                      </button>
+                    </li>
+                    <li class="icons-list-item">
+                      <button class="icons-btn dislike-btn" data-dislikes="1">
+                        <svg width="16" height="16">
+                          <use xlink:href="./src/img/symbol-defs.svg#icon-dislike"></use>
+                        </svg>
+                        <span class="dislike-count">1</span> ไม่ชอบ 
+                      </button>
+                    </li>
+                    <li class="icons-list-item">
+                      <a href="#commentForm" class="icons-btn">
+                        <svg width="16" height="16">
+                          <use xlink:href="./src/img/symbol-defs.svg#icon-comment"></use>
+                        </svg>
+                        ฟอร์ม
+                      </a>
+                    </li>
+                    <li class="icons-list-item">
+                      <div class="publication-date" ></div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="commentList-item">
+              <img src="./src/img/comment-7.png" alt="" class="commentList-item-img">
+              <div class="comment-text-content">
+                <p class="comment-text"><b style="font-size: 18px; color: dodgerblue;">วิทยา </b></p>
+                <p class="comment-text">ผมเพิ่งสั่งไปเมื่อวานนี้ แล้วเมื่อเช้านี้ผมก็ได้รับเครื่องรางแล้ว มันสวยมากๆครับ แค่มองดูก็รู้สึกได้ถึงพลังงานบวก </p>
+                <div class="icons">
+                  <ul class="icons-list">
+                    <li class="icons-list-item">
+                      <button class="icons-btn like-btn" data-likes="4">
+                        <svg width="16" height="16">
+                          <use xlink:href="./src/img/symbol-defs.svg#icon-like"></use>
+                        </svg>
+                        <span class="like-count">4</span> ชอบ 
+                      </button>
+                    </li>
+                    <li class="icons-list-item">
+                      <button class="icons-btn dislike-btn" data-dislikes="2">
+                        <svg width="16" height="16">
+                          <use xlink:href="./src/img/symbol-defs.svg#icon-dislike"></use>
+                        </svg>
+                        <span class="dislike-count">2</span> ไม่ชอบ 
+                      </button>
+                    </li>
+                    <li class="icons-list-item">
+                      <a href="#commentForm" class="icons-btn">
+                        <svg width="16" height="16">
+                          <use xlink:href="./src/img/symbol-defs.svg#icon-comment"></use>
+                        </svg>
+                        ฟอร์ม
+                      </a>
+                    </li>
+                    <li class="icons-list-item">
+                      <div class="publication-date" ></div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="commentList-item">
+              <img src="./src/img/comment-8.png" alt="" class="commentList-item-img">
+              <div class="comment-text-content">
+                <p class="comment-text"><b style="font-size: 18px; color: dodgerblue;">พรพิมล </b></p>
+                <p class="comment-text">ดิฉันขอเล่าประสบการณ์ตรงเกี่ยวกับเครื่องรางชิ้นนี้ค่ะ ลูกสาวของดิฉันเป็นคนที่ขยันเรียนเก่ง แต่ไม่ค่อยมีดวงเรื่องความรักและการงานสักเท่าไหร่ ดิฉันจึงตัดสินใจสั่งซื้อเครื่องรางชิ้นนี้ จากเว็บนี้ ตอนแรกดิฉันก็ไม่เชื่อว่ามันจะเปลี่ยนชีวิตของฉันและลูกสาวไปตลอดกาล แต่ก็คิดว่าซื้อมาลองก็ไม่เสียหาย ผ่านไปไม่ถึงเดือน ลูกสาวของดิฉันก็ได้งานใหม่ในบริษัทต่างชาติ เงินเดือน 50,000 บาท และเธอก็มีแฟนหนุ่มที่มีชีวิตมั่นคงและกำลังจะวางแผนแต่งงานกันในไม่ช้า นี่คือประสบการณ์ตรงจากดิฉันที่อยากแบ่งปันกับคนที่กำลังลังเลที่จะตัดสินใจซื้อเครื่องรางชิ้นนี้ สำหรับที่ฉันแล้วเครื่องรางชิ้นนี้ถือเป็นของขวัญล้ำค่ามากๆค่ะ</p>
+                <div class="icons">
+                  <ul class="icons-list">
+                    <li class="icons-list-item">
+                      <button class="icons-btn like-btn" data-likes="17">
+                        <svg width="16" height="16">
+                          <use xlink:href="./src/img/symbol-defs.svg#icon-like"></use>
+                        </svg>
+                        <span class="like-count">17</span> ชอบ 
+                      </button>
+                    </li>
+                    <li class="icons-list-item">
+                      <button class="icons-btn dislike-btn" data-dislikes="0">
+                        <svg width="16" height="16">
+                          <use xlink:href="./src/img/symbol-defs.svg#icon-dislike"></use>
+                        </svg>
+                        <span class="dislike-count">0</span> ไม่ชอบ 
+                      </button>
+                    </li>
+                    <li class="icons-list-item">
+                      <a href="#commentForm" class="icons-btn">
+                        <svg width="16" height="16">
+                          <use xlink:href="./src/img/symbol-defs.svg#icon-comment"></use>
+                        </svg>
+                        ฟอร์ม
+                      </a>
+                    </li>
+                    <li class="icons-list-item">
+                      <div class="publication-date" ></div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="commentList-item">
+              <img src="./src/img/comment-9.png" alt="" class="commentList-item-img">
+              <div class="comment-text-content">
+                <p class="comment-text"><b style="font-size: 18px; color: dodgerblue;">ชุติมา </b></p>
+                <p class="comment-text">หนูชอบเครื่องรางชิ้นนี้มากๆค่ะ </p>
+                <div class="icons">
+                  <ul class="icons-list">
+                    <li class="icons-list-item">
+                      <button class="icons-btn like-btn" data-likes="16">
+                        <svg width="16" height="16">
+                          <use xlink:href="./src/img/symbol-defs.svg#icon-like"></use>
+                        </svg>
+                        <span class="like-count">16</span> ชอบ 
+                      </button>
+                    </li>
+                    <li class="icons-list-item">
+                      <button class="icons-btn dislike-btn" data-dislikes="5">
+                        <svg width="16" height="16">
+                          <use xlink:href="./src/img/symbol-defs.svg#icon-dislike"></use>
+                        </svg>
+                        <span class="dislike-count">5</span> ไม่ชอบ 
+                      </button>
+                    </li>
+                    <li class="icons-list-item">
+                      <a href="#commentForm" class="icons-btn">
+                        <svg width="16" height="16">
+                          <use xlink:href="./src/img/symbol-defs.svg#icon-comment"></use>
+                        </svg>
+                        ฟอร์ม
+                      </a>
+                    </li>
+                    <li class="icons-list-item">
+                      <div class="publication-date" ></div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="commentList-item">
+              <img src="./src/img/comment-10.png" alt="" class="commentList-item-img">
+              <div class="comment-text-content">
+                <p class="comment-text"><b style="font-size: 18px; color: dodgerblue;">กาญจนา </b></p>
+                <p class="comment-text">สั่งไปแล้วค่ะ พนักงานแนะนำดีมากๆ แถมยังมีส่วนลดด้วย รอพัสดุถึงเลยค่ะ</p>
+                <div class="icons">
+                  <ul class="icons-list">
+                    <li class="icons-list-item">
+                      <button class="icons-btn like-btn" data-likes="4">
+                        <svg width="16" height="16">
+                          <use xlink:href="./src/img/symbol-defs.svg#icon-like"></use>
+                        </svg>
+                        <span class="like-count">4</span> ชอบ 
+                      </button>
+                    </li>
+                    <li class="icons-list-item">
+                      <button class="icons-btn dislike-btn" data-dislikes="1">
+                        <svg width="16" height="16">
+                          <use xlink:href="./src/img/symbol-defs.svg#icon-dislike"></use>
+                        </svg>
+                        <span class="dislike-count">1</span> ไม่ชอบ 
+                      </button>
+                    </li>
+                    <li class="icons-list-item">
+                      <a href="#commentForm" class="icons-btn">
+                        <svg width="16" height="16">
+                          <use xlink:href="./src/img/symbol-defs.svg#icon-comment"></use>
+                        </svg>
+                        ฟอร์ม
+                      </a>
+                    </li>
+                    <li class="icons-list-item">
+                      <div class="publication-date" ></div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="commentList-item commentList-last-item">
+              <img src="./src/img/comment-11.png" alt="" class="commentList-item-img">
+              <div class="comment-text-content">
+                <p class="comment-text"><b style="font-size: 18px; color: dodgerblue;">ณัฐณิชา</b></p>
+                <p class="comment-text">ดิฉันสั่งเครื่องรางมาจากเว็บไซต์นี้เหมือนกันค่ะ ลูกๆของดิฉันต่างแยกทางกันไปเติบโตแล้ว และสามีของดิฉันก็เสียชีวิตไปเมื่อไม่กี่ปีที่ผ่านมา มันยากมากๆสำหรับดิฉันที่จะต้องรับมือกับงานบ้านและทำงานไปด้วยในเวลาเดียวกัน แต่หลังจากที่ดิฉันได้สั่งซื้อเครื่องรางชิ้นนี้มาและได้สวมใส่อยู่ตลอดเวลา ก็ได้มีผู้ชายคนหนึ่งปรากฏตัวขึ้น เขาดีกับดิฉันมากๆ และดิฉันตกหลุมรักเขา พวกเราอยู่ด้วยกันอย่างมีความสุข ดิฉันไม่ต้องทำงานงกๆอยู่คนเดียวอีกต่อไป ขอสามีคนใหม่ของดิฉันมีรายได้เพียงพอจนพวกเราไม่จำเป็นต้องกังวลเรื่องการใช้จ่ายเลยค่ะ </p>
+                <div class="icons">
+                  <ul class="icons-list">
+                    <li class="icons-list-item">
+                      <button class="icons-btn like-btn" data-likes="3">
+                        <svg width="16" height="16">
+                          <use xlink:href="./src/img/symbol-defs.svg#icon-like"></use>
+                        </svg>
+                        <span class="like-count">3</span> ชอบ 
+                      </button>
+                    </li>
+                    <li class="icons-list-item">
+                      <button class="icons-btn dislike-btn" data-dislikes="0">
+                        <svg width="16" height="16">
+                          <use xlink:href="./src/img/symbol-defs.svg#icon-dislike"></use>
+                        </svg>
+                        <span class="dislike-count">0</span> ไม่ชอบ 
+                      </button>
+                    </li>
+                    <li class="icons-list-item">
+                      <a href="#commentForm" class="icons-btn">
+                        <svg width="16" height="16">
+                          <use xlink:href="./src/img/symbol-defs.svg#icon-comment"></use>
+                        </svg>
+                        ฟอร์ม
+                      </a>
+                    </li>
+                    <li class="icons-list-item">
+                      <div class="publication-date" ></div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="container">
+        <div class="buy-wrapper">
+          <a href="#buy-form" class="buy-btn">
+            <span>สั่งซื้อเครื่องรางตอนนี้ รับส่วนลด 50%</span>
+          </a>
+        </div>
+      </div>
+  </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <p>ลิขสิทธิ์ © 2567 โดย Copyrightindex.com</p>
+      <p> 
+        สงวนลิขสิทธิ์ ห้ามทำซ้ำ แจกจ่าย หรือส่งในรูปแบบใด ๆ หรือด้วยวิธีการใด ๆ รวมถึงการทำสำเนา บันทึก หรือวิธีการทางอิเล็กทรอนิกส์หรือเชิงกลอื่น ๆ โดยไม่ได้รับอนุญาตเป็นลายลักษณ์อักษรจากผู้ เผยแพร่ ยกเว้นในกรณีที่มีการอ้างอิงโดยย่อในรีวิวสำคัญและการใช้งานที่ไม่ใช่เชิงพาณิชย์อื่น ๆ ที่ได้รับอนุญาตตามกฎหมายลิขสิทธิ์
+        </p>
+    </div>
+  </footer>
+  <script src="./src/js/main.js" defer type="module"></script>
+</body>
 </html>
