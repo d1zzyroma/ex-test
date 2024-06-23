@@ -1,5 +1,4 @@
 import '@splidejs/splide/dist/css/themes/splide-sea-green.min.css';
-
 import Splide from '@splidejs/splide';
 
 
@@ -10,9 +9,7 @@ const currentDate = new Date();
 const day = currentDate.getDate();
 const month = currentDate.getMonth() + 1; // Додаємо 1, оскільки місяці в JavaScript починаються з 0
 const year = currentDate.getFullYear();
-
 const formattedDate = `${day}-${month}-${year}`;
-
 const publicationDateElement = document.getElementById('publication_date');
 
 publicationDateElement.textContent = formattedDate;
@@ -30,7 +27,6 @@ document.addEventListener('DOMContentLoaded', function() {
             console.error('Element with class "publication-date" not found');
         }
     });
-
     document.addEventListener('click', function(event) {
         const target = event.target;
 
